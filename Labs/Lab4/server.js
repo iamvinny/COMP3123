@@ -18,7 +18,7 @@ app.get("/user", (req, res) => {
         lastname: req.query.lastname
     }
 
-    res.send(JSON.stringify(user))
+    res.json(user)
 })
 
 /* +======= POST request: /user return  { "firstname":"Pritesh", "lastname": "Patel" }. Use path parameter to send values =======+  */
@@ -29,7 +29,7 @@ app.post("/user/:firstname/:lastname", (req, res) => {
         lastname: req.params.lastname
     }
 
-    res.send(JSON.stringify(user))
+    res.json(user)
 })
 
 app.listen(SERVER_PORT, () => {

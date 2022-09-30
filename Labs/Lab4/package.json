@@ -1,5 +1,5 @@
 {
-  "name": "week04 Express Server",
+  "name": "lab_04_express_server",
   "version": "1.0.0",
   "description": "NodeJs Express Server",
   "main": "server.js",
@@ -11,9 +11,10 @@
   "keywords": [
     "NodeJs",
     "exprers",
+    "http",
     "js"
   ],
-  "author": "Pritesh Patel",
+  "author": "Vinny",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
